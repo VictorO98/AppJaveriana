@@ -1,0 +1,39 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Javeriana.Views.Biblioteca"
+             Title="BIBLIOTECA">
+    <ScrollView>
+        <StackLayout>
+            <ListView ItemsSource="{Binding Libros}"
+                      HasUnevenRows="True"
+                      SeparatorVisibility="None">
+                <ListView.ItemTemplate>
+                    <DataTemplate>
+                        <ViewCell>
+                            <StackLayout BackgroundColor="white">
+                                <Frame OutlineColor="Black" Padding="7" BackgroundColor="#014880" Margin="2,1,0,0">
+                                    <Label x:Name="ASigantura" HorizontalOptions="Fill" Text="Libro # :" TextColor="White"></Label>
+                                </Frame>
+                                <StackLayout>
+                                    <Label Text="Id Libro:"></Label>
+                                    <Label Text="{Binding IdLibro}"></Label>
+                                    <Label Text="Nombre Libro:"></Label>
+                                    <Label Text="{Binding NombreLibro}"></Label>
+                                    <Label Text="Fecha Pedido:"></Label>
+                                    <Label Text="{Binding FechaPedido}"></Label>
+                                    <Label Text="Fecha Entrega:"></Label>
+                                    <Label Text="{Binding FechaEntrega}"></Label>
+                                    <Label Text="Multa:"></Label>
+                                    <Label Text="{Binding Multa}"></Label>
+                                    <Label Text="Localidad:"></Label>
+                                    <Label Text="{Binding Localidad}"></Label>
+                                </StackLayout>
+                            </StackLayout>
+                        </ViewCell>
+                    </DataTemplate>
+                </ListView.ItemTemplate>
+            </ListView>
+        </StackLayout>
+    </ScrollView>
+</ContentPage>

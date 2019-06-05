@@ -1,0 +1,34 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Javeriana.Views.Horarios"
+             Title="HORARIOS">
+    <ScrollView>
+        <StackLayout>
+            <ListView ItemsSource="{Binding DetallesHoras}"
+                                          HasUnevenRows="True"
+                                          SeparatorVisibility="None">
+                <ListView.ItemTemplate>
+                    <DataTemplate>
+                        <ViewCell>
+                            <StackLayout BackgroundColor="white">
+                                <Frame OutlineColor="Black" Padding="7" BackgroundColor="#f9d213" Margin="2,1,0,0">
+                                    <Label x:Name="ASigantura" HorizontalOptions="Fill" Text="{Binding Nombre}"></Label>
+                                </Frame>
+                                <StackLayout>
+                                    <Label Text="Profesor:"></Label>
+                                    <Label Text="{Binding Docente}"></Label>
+                                    <Label Text="Días y Horas:"></Label>
+                                    <Label Text="{Binding DiaSemana}"></Label>
+                                    <Label Text="{Binding Horas}"></Label>
+                                    <Label Text=" "></Label>
+                                </StackLayout>
+                            </StackLayout>
+                        </ViewCell>
+                    </DataTemplate>
+                </ListView.ItemTemplate>
+            </ListView>
+            
+        </StackLayout>
+    </ScrollView>
+</ContentPage>

@@ -1,0 +1,42 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Javeriana.Views.MenuPrincipal"
+             Title="JAVERIANA">
+    
+    <Grid Padding="20" >
+        <Grid.RowDefinitions>
+            <RowDefinition Height="*" />
+            <RowDefinition Height="*" />
+        </Grid.RowDefinitions>
+
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="*" />
+            <ColumnDefinition Width="*" />
+        </Grid.ColumnDefinitions>
+
+        <StackLayout Grid.Row="0" Grid.Column="0">
+            <ImageButton Source="LogoCurso.png" Clicked="Open_Asignatura" HeightRequest="150" WidthRequest="150" 
+                         HorizontalOptions="Center" VerticalOptions="Center"></ImageButton>
+            <Label Text = "Asignaturas" HorizontalOptions="Center" TextColor="Black" FontSize="Large"></Label>
+        </StackLayout>
+
+        <StackLayout Grid.Row="0" Grid.Column="1">
+            <ImageButton Source="LogoHorario.png" Clicked="Open_Horario" HeightRequest="150" WidthRequest="150" 
+                         HorizontalOptions="Center" VerticalOptions="Center" ></ImageButton>
+            <Label Text = "Horario " HorizontalOptions="Center" TextColor="Black" FontSize="Large"></Label>
+        </StackLayout>
+
+        <StackLayout Grid.Row="1" Grid.Column="0" >
+            <ImageButton Source="LogoLibros.png" Clicked="Open_Libros" HeightRequest="150" WidthRequest="150" 
+                         HorizontalOptions="Center" VerticalOptions="Center"></ImageButton>
+            <Label Text = "Biblioteca" HorizontalOptions="Center" TextColor="Black" FontSize="Large"></Label>
+        </StackLayout>
+
+        <StackLayout Grid.Row="1" Grid.Column="1" >
+            <ImageButton Source="LogoTV.png" Clicked="Open_Noticias" HeightRequest="150" WidthRequest="150" 
+                         HorizontalOptions="Center" VerticalOptions="Center"></ImageButton>
+            <Label Text = "Noticias"  HorizontalOptions="Center" TextColor="Black" FontSize="Large"></Label>
+        </StackLayout>
+    </Grid>
+</ContentPage>
