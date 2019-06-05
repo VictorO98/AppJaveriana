@@ -1,14 +1,20 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
-             x:Class="Javeriana.Views.Login">
+             x:Class="Javeriana.Views.Login"
+             >
 
-    <StackLayout Margin="20" Padding="5" VerticalOptions="CenterAndExpand">
-        <Image Source="LogoLogin.png" ></Image>
-        <Entry Placeholder="Usuario" x:Name="UsuarioEntry" Text="{Binding UserName}"  ></Entry>
-        <Entry Placeholder="Contraseña" x:Name="ContraEntry" Text="{Binding Password}" IsPassword="true"></Entry>
-        <Button Text="INGRESAR" Command="{Binding IngresarCommand}" BackgroundColor="#FFF100" BorderColor="Black" BorderWidth="3" CornerRadius="10" ></Button>
-        <Label Text="¿Olvidaste tu contraseña?" x:Name = "lblContra" TextColor="Blue" HorizontalOptions="Center" ></Label>
-        <Label IsVisible="{Binding MensajeError.HasError}" Text="{Binding MensajeError.Message}"/>
-    </StackLayout>
+    <FlexLayout HorizontalOptions="CenterAndExpand" Direction="Column" JustifyContent="SpaceAround">
+        
+        <StackLayout VerticalOptions="FillAndExpand">
+            <Image Source="LogoLogin.jpg"></Image>
+            <StackLayout></StackLayout>
+            <Entry Placeholder="Usuario" x:Name="UsuarioEntry" Text="{Binding UserName}"  ></Entry>
+            <Entry Placeholder="Contraseña" x:Name="ContraEntry" Text="{Binding Password}" IsPassword="true"></Entry>
+
+            <Button Text="INGRESAR" TextColor="white" Command="{Binding IngresarCommand}" BackgroundColor="#014880" BorderColor="white" BorderWidth="3" CornerRadius="10" ></Button>
+            <Label Text="¿Olvidaste tu contraseña?" x:Name = "lblContra" TextColor="#014880" HorizontalOptions="Center" ></Label>
+            <Label IsVisible="{Binding MensajeError.HasError}" Text="{Binding MensajeError.Message}"/>
+        </StackLayout>
+    </FlexLayout>
 </ContentPage>

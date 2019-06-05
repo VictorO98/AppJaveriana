@@ -240,7 +240,6 @@ C:\Users\Lenovo\Desktop\ProyectoFinal\Desarrollo\Javeriana\Javeriana.Android\obj
 C:\Users\Lenovo\Desktop\ProyectoFinal\Desarrollo\Javeriana\Javeriana.Android\obj\Debug\81\android\assets\Plugin.Connectivity.dll.mdb
 C:\Users\Lenovo\Desktop\ProyectoFinal\Desarrollo\Javeriana\Javeriana.Android\obj\Debug\81\android\assets\System.Threading.dll
 C:\Users\Lenovo\Desktop\ProyectoFinal\Desarrollo\Javeriana\Javeriana.Android\obj\Debug\81\android\assets\System.Threading.Tasks.dll
-C:\Users\Lenovo\Desktop\ProyectoFinal\Desarrollo\Javeriana\Javeriana.Android\obj\Debug\81\res\drawable\logologin.png
 C:\Users\Lenovo\Desktop\ProyectoFinal\Desarrollo\Javeriana\Javeriana.Android\obj\Debug\81\res\drawable\logocurso.png
 C:\Users\Lenovo\Desktop\ProyectoFinal\Desarrollo\Javeriana\Javeriana.Android\obj\Debug\81\res\drawable\logohorario.png
 C:\Users\Lenovo\Desktop\ProyectoFinal\Desarrollo\Javeriana\Javeriana.Android\obj\Debug\81\res\drawable\logolibros.png
@@ -349,3 +348,6 @@ C:\Users\Lenovo\Desktop\ProyectoFinal\Desarrollo\Javeriana\Javeriana.Android\obj
 C:\Users\Lenovo\Desktop\ProyectoFinal\Desarrollo\Javeriana\Javeriana.Android\obj\Debug\81\stamp\_CompileToDalvik.stamp
 C:\Users\Lenovo\Desktop\ProyectoFinal\Desarrollo\Javeriana\Javeriana.Android\obj\Debug\81\stamp\_GeneratePackageManagerJava.stamp
 C:\Users\Lenovo\Desktop\ProyectoFinal\Desarrollo\Javeriana\Javeriana.Android\obj\Debug\81\res\drawable\logoapp.png
+C:\Users\Lenovo\Desktop\ProyectoFinal\Desarrollo\Javeriana\Javeriana.Android\obj\Debug\81\res\drawable\logologin.jpg
+C:\Users\Lenovo\Desktop\ProyectoFinal\Desarrollo\Javeriana\Javeriana.Android\obj\Debug\81\res\drawable\logologin.png
+C:\Users\Lenovo\Desktop\ProyectoFinal\Desarrollo\Javeriana\Javeriana.Android\obj\Debug\81\res\drawable\noticia.png

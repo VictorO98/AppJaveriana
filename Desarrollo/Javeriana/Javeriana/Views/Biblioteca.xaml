@@ -13,20 +13,20 @@
                         <ViewCell>
                             <StackLayout BackgroundColor="white">
                                 <Frame OutlineColor="Black" Padding="7" BackgroundColor="#014880" Margin="2,1,0,0">
-                                    <Label x:Name="ASigantura" HorizontalOptions="Fill" Text="Libro # :" TextColor="White"></Label>
+                                    <Label x:Name="ASigantura" HorizontalOptions="Fill" Text="Libro # :" TextColor="White" FontAttributes="Bold"></Label>
                                 </Frame>
                                 <StackLayout>
-                                    <Label Text="Id Libro:"></Label>
+                                    <Label Text="Id Libro:" FontAttributes="Bold"></Label>
                                     <Label Text="{Binding IdLibro}"></Label>
-                                    <Label Text="Nombre Libro:"></Label>
+                                    <Label Text="Nombre Libro:" FontAttributes="Bold"></Label>
                                     <Label Text="{Binding NombreLibro}"></Label>
-                                    <Label Text="Fecha Pedido:"></Label>
+                                    <Label Text="Fecha Pedido:" FontAttributes="Bold"></Label>
                                     <Label Text="{Binding FechaPedido}"></Label>
-                                    <Label Text="Fecha Entrega:"></Label>
+                                    <Label Text="Fecha Entrega:" FontAttributes="Bold"></Label>
                                     <Label Text="{Binding FechaEntrega}"></Label>
-                                    <Label Text="Multa:"></Label>
+                                    <Label Text="Multa:" FontAttributes="Bold"></Label>
                                     <Label Text="{Binding Multa}"></Label>
-                                    <Label Text="Localidad:"></Label>
+                                    <Label Text="Localidad:" FontAttributes="Bold"></Label>
                                     <Label Text="{Binding Localidad}"></Label>
                                 </StackLayout>
                             </StackLayout>

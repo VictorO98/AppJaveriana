@@ -12,13 +12,13 @@
                     <DataTemplate>
                         <ViewCell>
                             <StackLayout BackgroundColor="white">
-                                <Frame OutlineColor="Black" Padding="7" BackgroundColor="#f9d213" Margin="2,1,0,0">
-                                    <Label x:Name="ASigantura" HorizontalOptions="Fill" Text="{Binding Nombre}"></Label>
+                                <Frame OutlineColor="Black" Padding="7" BackgroundColor="#014880" Margin="2,1,0,0">
+                                    <Label x:Name="ASigantura" HorizontalOptions="Fill" Text="{Binding Nombre}" TextColor="white" FontAttributes="Bold"></Label>
                                 </Frame>
                                 <StackLayout>
-                                    <Label Text="Profesor:"></Label>
+                                    <Label Text="Profesor:" FontAttributes="Bold"></Label>
                                     <Label Text="{Binding Docente}"></Label>
-                                    <Label Text="Días y Horas:"></Label>
+                                    <Label Text="Días y Horas:" FontAttributes="Bold"></Label>
                                     <Label Text="{Binding DiaSemana}"></Label>
                                     <Label Text="{Binding Horas}"></Label>
                                     <Label Text=" "></Label>

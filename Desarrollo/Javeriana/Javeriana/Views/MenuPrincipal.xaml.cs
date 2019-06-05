@@ -37,5 +37,10 @@ namespace Javeriana.Views
         {
             Navigation.PushAsync(new Noticias());
         }
+
+        private void Button_Clicked(object sender, EventArgs e)
+        {
+            Navigation.PushAsync(new Login());
+        }
     }
 }
